@@ -4,7 +4,7 @@ extern crate neon;
 use neon::prelude::*;
 
 fn middleware(mut ctx: FunctionContext) -> JsResult<JsUndefined> {
-	// If we also need the request object:
+    // If we also need the request object:
     // let req = ctx.argument::<JsObject>(0)?;
     let res = ctx.argument::<JsObject>(1)?;
     let next = ctx.argument::<JsFunction>(2)?;
