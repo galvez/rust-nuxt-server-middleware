@@ -1,0 +1,3 @@
+# middleware
+
+Nuxt Server Middleware

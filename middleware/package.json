@@ -1,0 +1,14 @@
+{
+  "name": "middleware",
+  "version": "0.1.0",
+  "description": "Nuxt Server Middleware",
+  "main": "lib/index.js",
+  "author": "Jonas Galvez <jonasgalvez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
