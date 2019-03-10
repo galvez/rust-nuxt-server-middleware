@@ -2,11 +2,13 @@
 **A word of caution**: As noted in the [Nuxt.js presentation][pres] at Vue.js 
 Amsterdam 2019, the next major version of Nuxt will likely feature a new backend 
 services framework that will much better than what's currently offered by 
-[Nuxt.js serverMiddleware][server-middleware]. Nevertheless, `serverMiddleware` 
-can be a handy feature if you want to quickly embed a backend API into a Nuxt
-application without proxying requests to a separate API server (or resorting
-to programmatic Nuxt embedded in another Node.js server). See [this article by 
-Alexander Lichter][manniL] for more considerations. 
+[Nuxt.js serverMiddleware][server-middleware].
+
+Nevertheless, `serverMiddleware` can be a handy feature if you want to quickly 
+embed a backend API into a Nuxt application without proxying requests to a
+separate API server (or resorting to programmatic Nuxt embedded in another 
+Node.js server). See [this article by Alexander Lichter][manniL] for more 
+considerations. 
 
 [pres]: https://www.youtube.com/watch?v=Ad5FF3BEY00
 [server-middleware]: https://nuxtjs.org/api/configuration-servermiddleware/
