@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "nuxt-edge": "^2.5.0-25869609.13cb0f73"
+  }
+}
